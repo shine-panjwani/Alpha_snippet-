@@ -47,7 +47,7 @@ const Courses = () => {
     try {
       await account.deleteSession("current");
       alert("You have been logged out.");
-      window.location.href = "/login";
+      navigate("/login");
     } catch (error) {
       console.error("Error logging out:", error);
     }
@@ -56,7 +56,7 @@ const Courses = () => {
   const handleEnroll = (index, courseTitle) => {
     if (!isAuthenticated) {
       alert("You need to be logged in to enroll in a course.");
-      window.location.href = "/login";
+      navigate("/login");
       return;
     }
       if (coursedata[index].enrolled ) {
