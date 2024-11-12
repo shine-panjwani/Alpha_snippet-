@@ -59,7 +59,10 @@ const Courses = () => {
       window.location.href = "/login";
       return;
     }
-
+      if (coursedata[index].enrolled ) {
+        alert(`You have already been enrolled in this course: ${courseTitle}`);
+        return;
+      }
     alert(`You are enrolled in the course: ${courseTitle}`);
     setCoursedata((prevData) =>
       prevData.map((course, i) =>
@@ -211,5 +214,5 @@ const Courses = () => {
       </div>
     </div>
   );
-};
+}
 export default Courses;

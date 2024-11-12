@@ -31,7 +31,7 @@ const StudentProfile = () => {
     }
   }, [location.state]);
   return (
-    <div className="bg-[#000000d4]  w-screen min-h-screen">
+    <div className="bg-[#09141B]  w-screen min-h-screen">
       <ProfilePart1 userName={userName} />
       <ProfilePart2 />
     </div>
