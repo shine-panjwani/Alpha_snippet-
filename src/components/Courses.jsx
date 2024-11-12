@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { databases, account } from "../lib/appwrite"; // Import account from appwrite
 import Quiz from "./Quiz";
 import "remixicon/fonts/remixicon.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 const Courses = () => {
   const [coursedata, setCoursedata] = useState([]);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
