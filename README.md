@@ -6,15 +6,13 @@ This educational platform provides an interactive learning experience with perso
 
 **Key Features**
 
-   1.Leaderboard: Tracks student rankings based on quiz scores and achievements.
+   1. Leaderboard: Tracks student rankings based on quiz scores and achievements.
   
-   2.Quizzes: Available across subjects like Science, Technology, and Art.
+   2. Quizzes: Available across subjects like Science, Technology, and Art.
    
-   3.Student Profiles: Allows students to track progress, view achievements, and manage preferences.
+   3. Student Profiles: Allows students to track progress, view achievements, and manage preferences.
    
-   4.Course Catalog: Includes featured courses and easy enrollment options.
-   
-   5.Privacy & Control: Options for public or private course access.
+   4. Course Catalog: Includes featured courses and easy enrollment options.
 
 **Tech Stack**
 1. Frontend: HTML, CSS, JavaScript (React)
