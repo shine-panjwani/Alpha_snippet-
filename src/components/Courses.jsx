@@ -4,11 +4,14 @@ import { Link, useNavigate } from "react-router-dom";
 import { databases, account } from "../lib/appwrite"; // Import account from appwrite
 import Quiz from "./Quiz";
 import "remixicon/fonts/remixicon.css";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Courses = () => {
   const [coursedata, setCoursedata] = useState([]);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+  const navigate = useNavigate();
+  const handleQuiz = () =>{
+    navigate("/quiz");
+  }
   const checkAuthentication = async () => {
     try {
       const user = await account.get();
@@ -200,7 +203,7 @@ const Courses = () => {
           </h1>
         </div>
         <button
-          onClick={() => window.open("/quiz", "_self")}
+          onClick={handleQuiz}
           className="w-fit h-fit px-4 py-2 rounded-full translate-x-[40vw] text-white my-5 bg-red-600"
         >
           Take Quiz
