@@ -61,7 +61,7 @@ For the backend of our project, we chose Appwrite for the offers a comprehensive
 
 - https://appwrite.io/docs/quick-starts/web
 
-  **Credits**
+# Credits
   
   - font-end : Shine Panjwani and Sarvagya Sharma
   - Backend + Database : Suryansh Lohan
