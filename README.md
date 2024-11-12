@@ -60,3 +60,9 @@ Currently, two official plugins are available:
 For the backend of our project, we chose Appwrite for the offers a comprehensive suite of backend services that allowed us to quickly set up and manage authentication, databases, file storage, and more. This saved a lot of time compared to building these components from scratch.
 
 - https://appwrite.io/docs/quick-starts/web
+
+  **Credits**
+  
+  - font-end : Shine Panjwani and Sarvagya Sharma
+  - Backend + Database : Suryansh Lohan
+  - UI/UX : Shirshti Warude
